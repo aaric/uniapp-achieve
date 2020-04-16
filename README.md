@@ -57,9 +57,9 @@ git checkout -b dev-aaric
 # commit code
 git add .
 git commit -m '0.3.0 basic syntax'
-git push --set-upstream origin dev-aaric
+git push origin dev-aaric
 
-# pull code
+# rein master
 git checkout master
 git fetch
 git pull
