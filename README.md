@@ -7,7 +7,7 @@
 ### 初始化项目
 
 ```node
-vue create -p dcloudio/uni-preset-vue uniapp-achieve2
+vue create -p dcloudio/uni-preset-vue uniapp-achieve
 ```
 
 ### 运行微信小程序项目
