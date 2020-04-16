@@ -44,11 +44,9 @@ npm i node-sass sass-loader -D
 </style>
 ```
 
-## 附录一：用户自定义配置
+## 附录：用户自定义配置
 
 参考[官方配置手册](https://cli.vuejs.org/config/)。
-
-## 附录一：GIT命令行参考
 
 ```bash
 # create branch
