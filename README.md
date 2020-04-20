@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/badge/license-MIT-green.svg?style=flat&logo=github)](https://www.mit-license.org)
 [![nodejs](https://img.shields.io/badge/node.js-13.12.0-brightgreen.svg?style=flat&logo=node.js)](https://nodejs.org)
-[![release](https://img.shields.io/badge/release-0.5.0-blue.svg)](https://github.com/aaric/uniapp-achieve/releases)
+[![release](https://img.shields.io/badge/release-0.6.0-blue.svg)](https://github.com/aaric/uniapp-achieve/releases)
 
 > [DCloud `uni-app` 微信小程序开发框架。](https://uniapp.dcloud.io/quickstart)
 
