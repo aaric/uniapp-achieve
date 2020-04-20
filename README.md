@@ -54,7 +54,7 @@ git checkout -b dev-aaric
 
 # commit code
 git add .
-git commit -m '0.5.0 computed and methods'
+git commit -m '0.6.0 components'
 git push --set-upstream origin dev-aaric
 
 # rein master

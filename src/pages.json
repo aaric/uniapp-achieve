@@ -1,6 +1,11 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/sample-05/index",
+			"style": {
+				"navigationBarTitleText": "components"
+			}
+		},{
 			"path": "pages/sample-04/index",
 			"style": {
 				"navigationBarTitleText": "computed and methods"
@@ -27,7 +32,11 @@
 				"navigationBarTitleText": "basic syntax"
 			}
 		}
-	],
+	    ,{
+            "path" : "components/ImgLoader/ImgLoader",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
