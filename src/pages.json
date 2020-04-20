@@ -1,6 +1,11 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/sample-06/index",
+			"style": {
+				"navigationBarTitleText": "global variable"
+			}
+		},{
 			"path": "pages/sample-05/index",
 			"style": {
 				"navigationBarTitleText": "components"
@@ -32,7 +37,7 @@
 				"navigationBarTitleText": "basic syntax"
 			}
 		}
-	],
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

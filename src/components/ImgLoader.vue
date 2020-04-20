@@ -10,14 +10,9 @@
 		props: {
 			src: String
 		},
-		data() {
-			return {
-				msg: 'Hi Parent!'
-			}
-		},
 		methods: {
 			handleClick() {
-				this.$emit('clickBy', this.src);
+				this.$emit('clickBy', this.src)
 			}
 		}
 	}
