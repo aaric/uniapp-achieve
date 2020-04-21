@@ -54,7 +54,7 @@ git checkout -b dev-aaric
 
 # commit code
 git add .
-git commit -m '0.7.0 global variable'
+git commit -m '0.8.0 slot'
 git push --set-upstream origin dev-aaric
 
 # rein master
