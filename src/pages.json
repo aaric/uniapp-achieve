@@ -1,6 +1,26 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/navi-home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},{
+			"path": "pages/navi-chat/index",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+		},{
+			"path": "pages/navi-contacts/index",
+			"style": {
+				"navigationBarTitleText": "联系人"
+			}
+		},{
+			"path": "pages/navi-mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
 			"path": "pages/sample-07/index",
 			"style": {
 				"navigationBarTitleText": "slot"
@@ -48,5 +68,36 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8A8A8A",
+		"selectedColor": "#04BE02",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/navi-home/index",
+				"iconPath": "static/navi/home.png",
+				"selectedIconPath": "static/navi/home_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/navi-chat/index",
+				"iconPath": "static/navi/chat.png",
+				"selectedIconPath": "static/navi/chat_selected.png",
+				"text": "聊天"
+			},
+			{
+				"pagePath": "pages/navi-contacts/index",
+				"iconPath": "static/navi/contacts.png",
+				"selectedIconPath": "static/navi/contacts_selected.png",
+				"text": "通讯录"
+			},
+			{
+				"pagePath": "pages/navi-mine/index",
+				"iconPath": "static/navi/mine.png",
+				"selectedIconPath": "static/navi/mine_selected.png",
+				"text": "我的"
+			}
+		]
 	}
 }
