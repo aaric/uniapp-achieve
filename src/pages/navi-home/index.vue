@@ -1,5 +1,6 @@
 <template>
 	<view class="content">
+		<text class="iconfont icon-chat"></text>
 		首页
 	</view>
 </template>

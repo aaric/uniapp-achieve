@@ -17,4 +17,5 @@
 
 <style>
 	/*每个页面公共css */
+	@import "./static/iconfont.wxss";
 </style>
