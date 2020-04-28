@@ -54,7 +54,7 @@ git checkout -b dev-aaric
 
 # commit code
 git add .
-git commit -m '1.0.0 navi'
+git commit -m '1.1.0 iconfont.wxss'
 git push --set-upstream origin dev-aaric
 
 # rein master
