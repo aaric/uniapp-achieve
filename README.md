@@ -31,7 +31,7 @@ npm run build:mp-weixin
 ### 支持sass语法
 
 ```node
-npm i node-sass sass-loader -D
+npm install sass-loader node-sass
 ```
 
 ```html
@@ -44,9 +44,37 @@ npm i node-sass sass-loader -D
 </style>
 ```
 
-## 附录：用户自定义配置
+## uni-ui 使用说明
+
+> [参考`uni-ui`官方使用文档。](https://www.npmjs.com/package/@dcloudio/uni-ui)
+
+### 安装
+
+```node
+npm install @dcloudio/uni-ui
+```
+
+### 使用示例
+
+```javascript
+import {uniBadge} from '@dcloudio/uni-ui'
+//import uniBadge from '@dcloudio/uni-ui/lib/uni-badge/uni-badge.vue' //也可使用此方式引入组件
+export default {
+    components: {uniBadge}
+}
+```
+
+```html
+<uni-badge text="1"></uni-badge>
+<uni-badge text="2" type="success" @click="bindClick"></uni-badge>
+<uni-badge text="3" type="primary" :inverted="true"></uni-badge>
+```
+
+## 附录一：用户自定义配置
 
 参考[官方配置手册](https://cli.vuejs.org/config/)。
+
+## 附录二：GIT命令参考
 
 ```bash
 # create branch
@@ -54,7 +82,7 @@ git checkout -b dev-aaric
 
 # commit code
 git add .
-git commit -m '1.1.0 iconfont.wxss'
+git commit -m '1.2.0 uni-ui'
 git push --set-upstream origin dev-aaric
 
 # rein master
