@@ -18,6 +18,24 @@
 	export default {
 		components: {
 			uniBadge
+		},
+		onLoad() {
+			// 1.weixin
+			wx.request({
+				url: 'http://jsonplaceholder.typicode.com/users',
+				success(res) {
+					console.log(res)
+				}
+			})
+			
+			// 2.uni-api
+			uni.request({
+				url: 'http://jsonplaceholder.typicode.com/users'
+			})
+			.then(data=>{
+				var [error, res] = data
+				console.log(res)
+			})
 		}
 	}
 </script>

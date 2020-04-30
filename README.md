@@ -82,7 +82,7 @@ git checkout -b dev-aaric
 
 # commit code
 git add .
-git commit -m '1.2.0 uni-ui'
+git commit -m '1.3.0 uni-api'
 git push --set-upstream origin dev-aaric
 
 # rein master
