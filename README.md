@@ -82,7 +82,7 @@ git checkout -b dev-aaric
 
 # commit code
 git add .
-git commit -m '1.4.0 uni-segmented-control'
+git commit -m '1.5.0 custom request'
 git push --set-upstream origin dev-aaric
 
 # rein master
