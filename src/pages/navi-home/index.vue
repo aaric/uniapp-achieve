@@ -6,7 +6,14 @@
 
 <script>
 	export default {
-		
+		mounted() {
+			this.request({
+				url: 'http://jsonplaceholder.typicode.com/users'
+			})
+			.then(list=>{
+				console.log(list)
+			})
+		}
 	}
 </script>
 
